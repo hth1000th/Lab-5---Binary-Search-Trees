@@ -14,7 +14,9 @@ int main(void)
       root = Insert(root, num);
     }
   }
+  // print the tree in preorder, inorder, and postorder form;
   print_tree(root);
+  // free all memory used by the tree;
   free(root);
   return 0;
 }
