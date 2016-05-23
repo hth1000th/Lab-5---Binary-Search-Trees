@@ -8,7 +8,7 @@ int main(void)
   int num = 0;
   int *arr = malloc(1000 * sizeof(int));
 
-  // default to empty node;
+  // default to empty array;
   for(i=0; i<1000; i++) {
     arr[i] = -1;
   }
