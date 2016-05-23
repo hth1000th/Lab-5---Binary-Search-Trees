@@ -18,5 +18,6 @@ int main(void)
   print_tree(root);
   // free all memory used by the tree;
   free(root);
+  
   return 0;
 }
